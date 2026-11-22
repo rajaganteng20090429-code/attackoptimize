@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "optimize",
+  "version": "1.0.0",
+  "name": "OPTIMIZE Auto Attack",
+  "description": "Auto attack sesuai cooldown, toggle dengan keybind.",
+  "environment": "client",
+  "entrypoints": { "client": ["optimize.OptimizeClient"] },
+  "depends": { "fabricloader": ">=0.17.0", "minecraft": "1.21.11", "fabric-api": "*" }
+}
